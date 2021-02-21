@@ -1,0 +1,5 @@
+1、如果你是某P2P租车的技术负责人，你会如何设计个性化推荐和搜索排序，阐述相似车型，搜索排序的设计方法可能的embedding策略，能简要阐述相似车型，搜索排序的方法，能简要阐述可能的embedding策略
+
+答：根据汽车的价格、品牌、类型、舒适度、乘客地理位置对车型进行划分
+根据租客点击、浏览等基础行为指标行为，引入embedding features实现排序算法的静态更新
+对embedding准备三种embedding的值，短期模型对汽车做listing embedding;长期模型中对user type embedding以及listing type embedding
